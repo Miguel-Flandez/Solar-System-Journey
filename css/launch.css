@@ -1,0 +1,33 @@
+
+
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#launch-body{
+    text-align: center;
+}
+#launch{
+    margin-top: 40%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    transition: opacity 2s ease;
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.5));
+}
+#launch.opacity{
+    opacity: 0;
+}
+#rocket{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    transform: scale(1.18);
+    display: none;
+
+}
