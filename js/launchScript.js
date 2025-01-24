@@ -20,6 +20,6 @@ window.addEventListener('click', function(){
     launch.style.display = 'none';
 
     setInterval(() => {
-        window.location = 'planets.html'
+        window.location = 'html/planets.html'
     }, 3000);
 })
